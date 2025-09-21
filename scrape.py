@@ -38,7 +38,7 @@ def scrape_book(url):
                 "price":price,
             }
         )
-        return all_books
+    return all_books
 books = scrape_book(url)
 
 with open("books.json","w",encoding='utf-8') as f:
