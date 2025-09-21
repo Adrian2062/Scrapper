@@ -1,3 +1,9 @@
+# git init
+# git status -- if you want to check what are the status of files
+# git diff -- if you want to check what are the changes
+# git add . 
+# git commit -m "Your message"
+# copy paste git code from github
 import requests
 from bs4 import BeautifulSoup
 url = "https://books.toscrape.com/"
